@@ -1,8 +1,8 @@
 # No_ShortCuts_Django
 
-### WHat we are going to build
+### What we are going to build
 
-We are going to make a clone of medium, but just the API (exclude frontend/UI stuff).
+We are going to make a clone of medium (https://medium.com/flutter/whats-new-in-flutter-3-16-dba6cb1015d1), but just the API (exclude frontend/UI stuff).
 
 Auth related functionality like :
 - register
@@ -47,3 +47,12 @@ Article functionality:
 
 ### pytest
 - For testing, a library that help us write test for Django, Flask, Fast API....
+
+### Project setup steps
+
+- Create a working dir and virtual env
+- Install packages
+- Django settings
+- Django apps
+
+### Logging in Django
