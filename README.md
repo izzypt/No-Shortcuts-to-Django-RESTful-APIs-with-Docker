@@ -1,12 +1,30 @@
 # No_ShortCuts_Django
 
-Build a functional API with Docker, Celery, Redis, Flower, Nginx, Nginx Proxy manager, Portainer and more...
+### WHat we are going to build
 
-Here are some of the concepts we will learn :
+We are going to make a clone of medium, but just the API (exclude frontend/UI stuff).
+
+Auth related functionality like :
+- register
+- login
+- logout
+- password
+- reset
+- verify user
+- get acess
+- refresh tokens
+
+Article functionality:
+
+- Search using elasticsearch
+- Followers
+- Article Date and read time
+- Likes
+- Responses
+
+### Some of the concepts touched upon on this repo :
 
 ![image](https://github.com/izzypt/No-Shortcuts-to-Django-RESTful-APIs-with-Docker/assets/73948790/c954ee89-c3f5-42bb-9c1b-99a5872ab201)
-
-### What I dive into on this project:
 
 ### Mailhog and Mailgun
 - In development and testing purposes , I'am going to use mailhog, which is a web and API based SMTP testing tool (https://github.com/mailhog/MailHog)
@@ -23,3 +41,9 @@ Here are some of the concepts we will learn :
 - To make Django behave asyncronously we can use:
   - A package called ***django-channels*** .
   - Or , we can use ***celery*** in combination with ***Redis*** or ***RabbitMQ***.
+
+### JWT
+ - For authentication we are going to use ***JWT***(JSON web tokens)
+
+### pytest
+- For testing, a library that help us write test for Django, Flask, Fast API....
