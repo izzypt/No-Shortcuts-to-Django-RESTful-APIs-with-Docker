@@ -37,3 +37,7 @@ while True:
             sys.stderror.write("Connection to DB took to long... Might have some unrecoverable error: '{}'n.format(error)")
     time.sleep(1)
 END
+
+>&2 echo "PostgresQL is available"
+
+exec "$@"
