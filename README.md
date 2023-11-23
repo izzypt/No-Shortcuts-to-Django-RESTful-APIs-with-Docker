@@ -56,3 +56,24 @@ Article functionality:
 - Django apps
 
 ### Logging in Django
+
+Key components are:
+
+- Log levels
+  - **Describes the severity of the mesage**:
+    - Error -> Major Problem occured
+    - Warning -> Minor Problem occured
+    - Info -> General system information
+    - Debug -> Low level system information
+    - Critical - Critical Problem
+- Handlers
+  - **Responsible for dispatching log message to the appropriate destination**:
+    - Console
+    - Files
+    - e-Mail
+- Formatters
+  - Define the format of the log.
+  - Logs are in a log record format and need to be converted before being sent.
+- Filters
+  - **Filter log messages based on some criteria**:
+    - log levels for example
