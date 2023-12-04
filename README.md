@@ -26,6 +26,10 @@ Article functionality:
 
 ![image](https://github.com/izzypt/No-Shortcuts-to-Django-RESTful-APIs-with-Docker/assets/73948790/c954ee89-c3f5-42bb-9c1b-99a5872ab201)
 
+
+![image](https://github.com/izzypt/No_Shortcuts_Django/assets/73948790/a6620e49-2f1e-42a0-a839-adfcd2fc75aa)
+
+
 ### Mailhog and Mailgun
 - In development and testing purposes , I'am going to use mailhog, which is a web and API based SMTP testing tool (https://github.com/mailhog/MailHog)
 - (Mailhog should not be used in production purposes, only development... on production we are going to use ***MailGun***, which is an email delivery service.)
